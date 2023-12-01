@@ -269,3 +269,10 @@ body {
         padding-left: 0;
     }
 }
+
+@media screen and (max-width:767px) and (min-width:500px) {
+    .col-md-4.p-0{
+        display: flex;
+        justify-content: center;
+    }
+}
